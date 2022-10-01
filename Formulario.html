@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <!--siempre hay que indicar que contenido quiero mostrar  --> 
+        <!--para crear formularios se empieza con la etiqueta form-->    
+        <!-- para los anunciados se hace con la etiqueta label es opcional, no se necesita para que el formulario funcione-->
+        <h2>Ejemplos de Formularios</h2>
+
+         <form action="" >
+            <!--Action es para agreggar un archivo que manupulelos datos enviados a travez del formulario-->
+            <label for="">Nombre de Usuario</label> <br>
+            <input type="text" placeholder="Escribe tu Nombre">
+
+            <!--type="text" indica que se puede escribir cualquier tipo de dato (numeros caracteres y simbolos)-->
+            <!--placeholder es un texto guiaque se borra cuandoel usuario empieza a digitar-->    
+            <br>
+            <label for="">Numero de Contacto</label> <br>
+            <input type="number" name="" id=""
+            placeholder="Escribe tu Numero" readonly> <br>
+            <!--type="text" solamente deja escribir numeros-->
+            <!--required es una validacion para volver un campo como oblicatorio de llenar -->
+
+            <label for="">Correo Electronico</label> <br>
+            <input type="email" name="" id="" > <br
+
+            placeholder="Escribe tu email"> 
+            <!--type=email valida que lo que se digite este en campo incluya el simbolo @, esta alerta aparece solamente cuando le damos click en un boton-->
+            <label for="">Contraseña</label> <br>
+            <input type="password" name="" id=""> <br
+            placeholder="escriba una contraseña" required> <br>
+            <!--type pasword oculta lo que se escribe en viñeta--> 
+
+            <label for="">Fecha de nacimiento</label> <br>
+            <input type="date" name="" id=""> <br>
+            <!--type="date" abre un calendario ´para aggregar una fecha en formato dd/mm/aa-->
+
+            <label for="">Ingresar fecha y hora</label> <br>
+            <input type="time" name="" id=""> <br>
+            <label for="">Fecha y hora</label> <br>
+            <input type="datetime-local" name="" id=""> <br>
+            <label for="">Sexo</label> <br>
+            <input type="radio" name="Sexo" id="">Femenino <br>
+            <input type="radio" name="Sexo" id="">Masculino <br>
+
+            <label for="">Selecciona tu deporte preferido</label> <br>
+            <input type="checkbox" name="" id=""> Natacion <br>
+            <input type="checkbox" name="" id=""> Futbol <br>
+            <input type="checkbox" name="" id=""> Tenis <br>
+            <label for="">Subir archivo</label> <br>
+            <input type="file" name="" id=""> <br>
+            <input type="file" name="" id=""> <br>
+            <label for="">Que tanto sabes de HTML?</label>
+            <input type="range" name="" id="" min="1" max="10">  <br>
+            <label for="">Colores</label><br>
+            <label for="">Seleccione una ciudad</label><br>
+            <select name="" id="">
+            <option value="">Seleccione...</option>
+            <option value="">Medellin</option>
+            <option value="">Bogota</option>
+            <option value="">Cali</option>
+            </select> <br>
+
+
+
+            <input type="color" name="" id=""> <br>
+            <!--botones hay 3 tipos,, button, submit y reset-->
+            <!---buttonn es un boton estatico, que comunmente se usa como enlace-->
+            <!--subbmit es el boton que esta conectado con el atributo action, quiere decir que este tipo de boton es el que genera que la informacion se pueda enviar -->
+            <!--reset limpia lo escrito en el formulario-->
+            <input type="submit" value="Enviar Datos">
+          
+
+
+
+
+
+         
+
+
+
+    </form>
+
+
+
+
+</body>
+</html>
